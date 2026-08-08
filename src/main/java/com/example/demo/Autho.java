@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Autho {
 
-    @GetMapping("/login")
+    @GetMapping("/loginn")
     public String Login(){
         return "return the value";
     }
